@@ -1,7 +1,7 @@
 package http_wrapper
 
 import (
-	"net/http"
+	"github.com/nycu-ucr/gonet/http"
 )
 
 type Response struct {

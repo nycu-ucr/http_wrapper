@@ -1,12 +1,13 @@
 package http_wrapper_test
 
 import (
-	"net/http"
 	"testing"
+
+	"github.com/nycu-ucr/gonet/http"
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/free5gc/http_wrapper"
+	"github.com/nycu-ucr/http_wrapper"
 )
 
 func TestNewRequest(t *testing.T) {

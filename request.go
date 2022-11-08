@@ -1,8 +1,9 @@
 package http_wrapper
 
 import (
-	"net/http"
 	"net/url"
+
+	"github.com/nycu-ucr/gonet/http"
 )
 
 type Request struct {
